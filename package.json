@@ -1,0 +1,15 @@
+{
+  "name": "10asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajar con el asincronismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "1.8.0"
+  }
+}
