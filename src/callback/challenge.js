@@ -29,9 +29,9 @@ fetchData(API, (error1, data1) => { // callback(null, JSON.parse(xhttp.responseT
     if (error2) return console.error(error2);
     fetchData(data2.origin.url, (error3, data3) => {
       if (error3) return console.error(error3);
-      console.log(data1.info.count);
-      console.log(data2.name);
-      console.log(data3.dimension);
+      console.log(data1.info.count); // 671
+      console.log(data2.name); // Rick Sanchez
+      console.log(data3.dimension); // Dimension C-137
     })
   })
 }) 
